@@ -1,6 +1,7 @@
-// Required by Webpack - do not touch
-require.context('../fonts/', true, /\.(eot|ttf|woff|woff2)$/i)
-require.context('../images/', true, /\.(png|jpg|jpeg|gif|svg)$/i)
-require.context('../stylesheets/', true, /\.(css|scss)$/i)
+// Import our custom CSS
+import '../stylesheets/main.scss'
+
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap'
 
 //TODO - Your ES6 JavaScript code (if any) goes here
